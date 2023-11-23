@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 8,
+      "picture": "https://picsum.photos/200",
+      "name": "Vārds Uzvārds",
+      "gender": "Vīrietis / Sieviete",
+      "education": "Pamata/Vidējā/Augstākā",
+      "occupation": "Esmu... programmētājs",
+      "hobby": "Man patīk.... Sportot",
+      "createdAt": "11/23/2023, 3:09:44 PM",
+      "updatedAt": "11/23/2023, 3:16:54 PM"
+    }
+  ]
+}

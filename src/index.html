@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="userCards" class="user-cards"></div>
+  
+    <div class="users--form" id="userForm">
+      <h2 class="h2">Add User</h2>
+      
+      <form class="addusersforms--form" id="addUserForm">
+        <div class="picture--url--wraper">
+            <label for="picture">Picture URL:</label>
+            <input type="text" id="picture" name="picture" required placeholder="https://picsum.photos/200">
+        </div>
+        <div class="name-gender-wrapper">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Vārds Uzvārds">
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" required placeholder="Vīrietis / Sieviete">
+        </div>
+            <div class="edu--occu--hobby--wraper">
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required placeholder="Pamata / Vidējā / Augstākā">
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" required placeholder="Es esmu ...">
+        </div>
+        <div class="hobby--wraper">
+            <label for="hobby">Hobby:</label>
+            <input type="text" id="hobby" name="hobby" required placeholder="Man patīk ...">
+        </div>
+        <div class="submit--button--wraper">
+            <button class="submit--btn" type="button" id="submitBtn">Submit</button>
+        </div>
+      </form>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
